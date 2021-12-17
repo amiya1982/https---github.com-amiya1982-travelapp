@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { CruisesearchboxComponent } from './cruisesearchbox/cruisesearchbox.component';
+import { ToursearchboxComponent } from './toursearchbox/toursearchbox.component';
+import { VacationsearchboxComponent } from './vacationsearchbox/vacationsearchbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CruisesearchboxComponent,
+    ToursearchboxComponent,
+    VacationsearchboxComponent
   ],
   imports: [
     BrowserModule,
