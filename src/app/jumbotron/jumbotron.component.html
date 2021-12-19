@@ -1,6 +1,37 @@
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="single-slide-item">Explore the world</h1>
-        <p class="lead">We help you build your memories!</p>
-    </div>
+<div class="main-slider">
+    <owl-carousel-o [options]="jumbotronOptions">
+        <ng-template carouselSlide>
+            <div class="jumbotron-1 jumbotron-fluid">
+                <div class="container">
+                    <h1 class="single-slide-item">Explore the world</h1>
+                    <p class="lead">We help you build your memories!</p>
+                    <p>
+                        <a class="btn btn-secondary">Get Started</a>
+                    </p>
+                </div>
+            </div>        
+        </ng-template>
+        <ng-template carouselSlide>
+            <div class="jumbotron-2 jumbotron-fluid">
+                <div class="container">
+                    <h1 class="single-slide-item text-primary">Travel is to live</h1>
+                    <p class="lead">We help you build your memories!</p>
+                    <p>
+                        <a class="btn btn-primary">Get Started</a>
+                    </p>
+                </div>
+            </div>        
+        </ng-template>
+        <ng-template carouselSlide>
+            <div class="jumbotron-3 jumbotron-fluid">
+                <div class="container">
+                    <h1 class="single-slide-item text-success">Life is a journey</h1>
+                    <p class="lead">We help you build your memories!</p>
+                    <p>
+                        <a class="btn btn-success">Get Started</a>
+                    </p>
+                </div>
+            </div>        
+        </ng-template>
+    </owl-carousel-o>
 </div>

@@ -24,6 +24,9 @@ export class FeaturedcruisesComponent{
 
   //owl carousel options
   featureOptions: OwlOptions = {
+    autoWidth: true,
+    autoplay: true,
+    autoplayHoverPause: true,
     loop: true,
     mouseDrag: true,
     touchDrag: true,

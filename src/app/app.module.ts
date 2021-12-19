@@ -19,6 +19,10 @@ import { FeaturedtoursComponent } from './featuredtours/featuredtours.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HotdealsComponent } from './hotdeals/hotdeals.component';
+import { PopularpackagesComponent } from './popularpackages/popularpackages.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import { HotdealsComponent } from './hotdeals/hotdeals.component';
     FeaturedcruisesComponent,
     ToursComponent,
     FeaturedtoursComponent,
-    HotdealsComponent
+    HotdealsComponent,
+    PopularpackagesComponent,
+    ReviewsComponent,
+    BlogsComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,

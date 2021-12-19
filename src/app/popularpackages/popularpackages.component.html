@@ -1,0 +1,16 @@
+<div class="container package mt-5">
+    <h1>Popular Packages</h1>
+    <div class="row">
+        <a href="#" class="col-sm-4 mb-4" *ngFor="let pack of packageDetails">
+            <div class="card text-dark text-center">
+                <img src={{pack.img}} class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center bg-transparent">
+                    <div>
+                        <h5 class="card-title">{{pack.title}}</h5>
+                        <p class="card-text lead">{{pack.lead}}</p>
+                    </div>                    
+                </div>
+            </div>
+        </a>        
+    </div>
+</div>

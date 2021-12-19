@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-
 @Component({
-  selector: 'app-jumbotron',
-  templateUrl: './jumbotron.component.html',
-  styleUrls: ['./jumbotron.component.css']
+  selector: 'app-reviews',
+  templateUrl: './reviews.component.html',
+  styleUrls: ['./reviews.component.css']
 })
-export class JumbotronComponent implements OnInit {
+export class ReviewsComponent implements OnInit {
 
   constructor() { }
 
@@ -14,11 +13,10 @@ export class JumbotronComponent implements OnInit {
   }
 
   //owl carousel options
-  jumbotronOptions: OwlOptions = {
+  reviewOptions: OwlOptions = {
     autoWidth: true,
-    autoplay: true,
-    autoplayTimeout:10000,
-    autoplayHoverPause: true,
+    autoplay: false,
+    autoplayHoverPause: false,
     loop: true,
     mouseDrag: true,
     touchDrag: true,
@@ -31,16 +29,18 @@ export class JumbotronComponent implements OnInit {
         items: 1
       },
       400: {
-        items: 1
+        items: 2
       },
       740: {
-        items: 1
+        items: 3
       },
       940: {
-        items: 1
+        items: 3
       }
     },
     nav: true
   }
 
 }
+
+
