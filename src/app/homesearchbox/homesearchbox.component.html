@@ -1,0 +1,61 @@
+<div class="container search">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    <div class="nav nav-tabs card-header-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-link active" id="nav-Cruises-tab" data-toggle="tab" href="#nav-Cruises" role="tab"
+                            aria-controls="nav-Cruises" aria-selected="true"><img
+                                src="assets/images/cruise.svg" />Cruises</a>
+                        <a class="nav-link" id="nav-Tours-tab" data-toggle="tab" href="#nav-Tours" role="tab"
+                            aria-controls="nav-Tours" aria-selected="false"><img
+                                src="assets/images/tour.svg" />Tours</a>
+                        <a class="nav-link" id="nav-Vacations-tab" data-toggle="tab" href="#nav-Vacations" role="tab"
+                            aria-controls="nav-Vacations" aria-selected="false"><img
+                                src="assets/images/vacation.svg" />Vacations</a>
+                        <a class="nav-link" id="nav-Resorts-tab" data-toggle="tab" href="#nav-Resorts" role="tab"
+                            aria-controls="nav-Resorts" aria-selected="false"><img
+                                src="assets/images/resort.svg" />Resorts</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Cruises" role="tabpanel"
+                            aria-labelledby="nav-Cruises-tab">
+                            <app-cruisesearchbox></app-cruisesearchbox>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Tours" role="tabpanel" aria-labelledby="nav-Tours-tab">
+                            <app-toursearchbox></app-toursearchbox>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Vacations" role="tabpanel"
+                            aria-labelledby="nav-Vacations-tab">
+                            <app-vacationsearchbox></app-vacationsearchbox>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Resorts" role="tabpanel" aria-labelledby="nav-Resorts-tab">
+                            ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 category">
+            <div class="card">
+                <div class="card-header text-center">
+                    <img src="../../assets/images/hotdeal-hd.png" />                    
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../assets/images/category-1.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/images/category-2.jpg" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/images/category-3.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

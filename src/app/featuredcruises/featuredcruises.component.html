@@ -1,0 +1,15 @@
+<div class="container featured">
+    <h1>Featured Cruises</h1>
+    <owl-carousel-o [options]="featureOptions">
+        <ng-template carouselSlide *ngFor="let item of cruiseDetails">
+            <a class="card mb-2"  href="#" title={{item.title}}>
+                <img class="card-img-top" src={{item.img}} alt={{item.title}}>
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{(item.title.length>50)? (item.title | slice:0:50)+'...':(item.title)}}</h5>
+                    <p class="card-text mb-1">Ship: {{item.ship}}</p>
+                    <h1 class="price pb-0 mb-0">${{item.price}}</h1>
+                </div>
+            </a>
+        </ng-template>
+    </owl-carousel-o>
+</div>
