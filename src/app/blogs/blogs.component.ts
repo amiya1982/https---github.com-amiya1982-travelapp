@@ -13,6 +13,51 @@ export class BlogsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  blogDetails = [
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-1.jpg'
+    },
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-2.jpg'
+    },
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-3.jpg'
+    },
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-4.jpg'
+    },
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-5.jpg'
+    },
+    {
+      title:'Blog Title Goes Here...', 
+      lead:'Lorem ipsum dolor sit amet consectetur adipisicing elit quidem laborum pariatur alias.', 
+      date:'21st May, 2021', 
+      name: 'John Doe',
+      img:'assets/images/img-6.jpg'
+    }
+  ];
+
   //owl carousel options
   blogOptions: OwlOptions = {
     autoWidth: true,
