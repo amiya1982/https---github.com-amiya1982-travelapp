@@ -19,3 +19,30 @@
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 15%);
 }
+
+@media (min-width: 300px) and (max-width: 1199px) {
+  .collapse:not(.show) {
+    display: none !important;
+  }
+  .navbar-toggler {
+    display: block;
+    font-size: 2rem;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    top: 100%;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}
